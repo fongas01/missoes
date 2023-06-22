@@ -8,6 +8,7 @@
     margin: 0;
     list-style: none;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 
 :root{
@@ -55,6 +56,14 @@ body{
     color: var(--houver-color);
 }
 
+#btn-outline-success a{
+   text-decoration: none;
+   color: var(--marrom);
+}
+
+#btn-outline-success a:hover{
+    color: var(--houver-color);
+}
 
 /* WHATSAPP */
 .whatsapp{
@@ -68,11 +77,9 @@ body{
 }
 
 .whatsapp a{ 
-    /*background-color: rgb(89, 243, 115);
-    border-radius: 50%;
-    box-shadow: var(--box-shadow);*/ 
     padding: 12px; 
 }
+
 
 .whatsapp a .icon{
     font-size:50px;
@@ -144,6 +151,9 @@ footer img, .navbar-brand{
 
 /***************  MEDIA QUERY  ******************/
 @media (min-width: 328px) {
+    footer{
+        justify-content: center;  
+    }
 }
 
 
@@ -161,5 +171,7 @@ footer img, .navbar-brand{
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
- 
+    footer{
+        justify-content: center;  
+    }
 }
